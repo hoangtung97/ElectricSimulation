@@ -1,0 +1,53 @@
+D:\mm\ElectricSimutation\bin\Debug\ElectricSimutation.exe.config
+D:\mm\ElectricSimutation\bin\Debug\ElectricSimutation.exe
+D:\mm\ElectricSimutation\bin\Debug\ElectricSimutation.pdb
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.Form1.resources
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.Properties.Resources.resources
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.GenerateResource.cache
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.exe
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.pdb
+D:\mm\ElectricSimutation\obj\Debug\ElectricSimutation.csprojAssemblyReference.cache
+D:\Project\ElectricSimutation\bin\Debug\ElectricSimutation.exe.config
+D:\Project\ElectricSimutation\bin\Debug\ElectricSimutation.exe
+D:\Project\ElectricSimutation\bin\Debug\ElectricSimutation.pdb
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.csprojAssemblyReference.cache
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.Form1.resources
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.Properties.Resources.resources
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.GenerateResource.cache
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.CoreCompileInputs.cache
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.exe
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.pdb
+D:\Project\ElectricSimutation\obj\Debug\ElectricSimutation.Form2.resources
+E:\Project lam viec\ElectricSimutation\bin\Debug\ElectricSimutation.exe.config
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.exe
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.pdb
+E:\Project lam viec\ElectricSimutation\bin\Debug\ElectricSimutation.exe
+E:\Project lam viec\ElectricSimutation\bin\Debug\ElectricSimutation.pdb
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Common.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.Design.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Barcodes.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Vsx.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Mapping.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Graphs.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Svg.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Scripting.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Common.WinForms.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Licensing.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.xml
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.xml
+E:\Project lam viec\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.Form1.resources
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.Form2.resources
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.Properties.Resources.resources
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.GenerateResource.Cache
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.csprojResolveAssemblyReference.cache
+E:\Project lam viec\ElectricSimutation\bin\Debug\HelixToolkit.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\HelixToolkit.xml
+E:\Project lam viec\ElectricSimutation\bin\Debug\Interop.WMPLib.dll
+E:\Project lam viec\ElectricSimutation\bin\Debug\AxInterop.WMPLib.dll
+E:\Project lam viec\ElectricSimutation\obj\Debug\Interop.WMPLib.dll
+E:\Project lam viec\ElectricSimutation\obj\Debug\AxInterop.WMPLib.dll
+E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.ResolveComReference.cache
