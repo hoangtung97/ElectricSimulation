@@ -118,208 +118,247 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="OPTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LIBRARY3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIBRARY1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RESTORE DOWN11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RESTORE DOWN11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BACKGROUND2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BACKGROUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FULLSCREEN11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FULLSCREEN11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="REDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REDO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EXIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EXIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIBRARY2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HELP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SEARCH_FOLDER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SEARCH_FOLDER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PROJECT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PROJECT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PROJECT_NAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PROJECT_NAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MINIMIZE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MINIMIZE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="START" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\START.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SEARCH_FOLDER1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SEARCH_FOLDER1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UNDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UNDO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RESTORE DOWN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RESTORE DOWN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HELP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OPEN_FILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OPEN_FILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TEXT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TEXT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SAVE AS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SAVE AS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TEXT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TEXT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SAVE AS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SAVE AS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FULLSCREEN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FULLSCREEN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIBRARY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BACKGROUND1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BACKGROUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="REDO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REDO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OPTION3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OPTION1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OPEN_FILE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OPEN_FILE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MINIMIZE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MINIMIZE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BACKGROUND1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BACKGROUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EXIT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EXIT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Microchip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Microchip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BACKGROUND2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BACKGROUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FULLSCREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FULLSCREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Micro PLC 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Micro PLC 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transformer 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transformer 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNDO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UNDO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Micro PLC 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Micro PLC 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REDO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIBRARY4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIBRARY2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAVE AS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE AS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FULLSCREEN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FULLSCREEN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIBRARY2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diesel generator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Diesel generator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROJECT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MINIMIZE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MINIMIZE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROJECT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROJECT_NAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROJECT_NAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPEN_FILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OPEN_FILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BACKGROUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BACKGROUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BACKGROUND3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BACKGROUND1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEXT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC power supply1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DC power supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAVE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectifier 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Rectifier 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RESTORE DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RESTORE DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAVE AS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE AS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPTION1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZOOM OUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZOOM OUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microchip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microchip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RESTORE DOWN11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RESTORE DOWN11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZOOM IN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZOOM IN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC power supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\DC power supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MINIMIZE11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MINIMIZE11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NEW+PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW+PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OPTION2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Transformer 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Transformer 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="START" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\START.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UNDO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEARCH_FOLDER1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SEARCH_FOLDER1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EXIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Power plant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Power plant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectifier 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectifier 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sensor 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Sensor 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Load cell1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Load cell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LIBRARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Power plant1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Power plant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skid-mounted boiler1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skid-mounted boiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skid-mounted boiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Skid-mounted boiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FULLSCREEN11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FULLSCREEN11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operator interface 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Operator interface 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Operator interface 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Operator interface 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPTION3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OPTION1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXIT11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EXIT11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RESTORE DOWN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RESTORE DOWN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="START1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\START1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Load cell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\Load cell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diesel generator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diesel generator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW+PROJECT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW+PROJECT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIBRARY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HELP3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HELP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NEW+PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NEW+PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="REDO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REDO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ZOOM IN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ZOOM IN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sensor 51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sensor 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NEW+PROJECT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NEW+PROJECT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MINIMIZE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MINIMIZE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SEARCH_FOLDER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SEARCH_FOLDER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UNDO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UNDO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PROJECT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIBRARY3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIBRARY1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HELP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FULLSCREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FULLSCREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EXIT11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EXIT11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TEXT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ZOOM OUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ZOOM OUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="START1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\START1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SAVE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SAVE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BACKGROUND3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BACKGROUND1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PROJECT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OPTION1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RESTORE DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RESTORE DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DC power supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\DC power supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Diesel generator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Diesel generator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Load cell" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Load cell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Micro PLC 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Micro PLC 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Microchip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Microchip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Operator interface 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Operator interface 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Power plant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Power plant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rectifier 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Rectifier 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sensor 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Sensor 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Skid-mounted boiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Skid-mounted boiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transformer 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\Transformer 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

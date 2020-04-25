@@ -99,12 +99,21 @@ namespace ElectricSimutation
         {
             label_Menuname.Text = "Project";
             label_Menuname.Image = ElectricSimutation.Properties.Resources.PROJECT3;
+            flowLayoutPanel2.Visible = false;
         }
 
         private void btn_library_Click(object sender, EventArgs e)
         {
             label_Menuname.Text = "Library";
             label_Menuname.Image = ElectricSimutation.Properties.Resources.LIBRARY3;
+            if (flowLayoutPanel2.Visible == true)
+            {
+                flowLayoutPanel2.Visible = false;
+            }
+            else
+            {
+                flowLayoutPanel2.Visible = true;
+            }
         }
 
         private void btn_background_Click(object sender, EventArgs e)
@@ -120,18 +129,21 @@ namespace ElectricSimutation
         {
             label_Menuname.Text = "Text";
             label_Menuname.Image = ElectricSimutation.Properties.Resources.TEXT3;
+            flowLayoutPanel2.Visible = false;
         }
 
         private void btn_help_Click(object sender, EventArgs e)
         {
             label_Menuname.Text = "Help";
             label_Menuname.Image = ElectricSimutation.Properties.Resources.HELP3;
+            flowLayoutPanel2.Visible = false;
         }
 
         private void btn_option_Click(object sender, EventArgs e)
         {
             label_Menuname.Text = "Option";
             label_Menuname.Image = ElectricSimutation.Properties.Resources.OPTION3;
+            flowLayoutPanel2.Visible = false;
         }
 
         private void menu_Home_DropDownOpened(object sender, EventArgs e)
@@ -307,6 +319,29 @@ namespace ElectricSimutation
         private void btn_Save_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void diagramView1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Menuname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Document_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel2.Visible = false;
+            var form_4 = new Form4();
+            form_4.Show();
+            
         }
     }
 }

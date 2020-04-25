@@ -74,6 +74,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -292,6 +301,45 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC power supply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diesel generator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load cell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Micro PLC 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microchip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operator interface 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Power plant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectifier 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sensor 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skid-mounted boiler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transformer 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIBRARY2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

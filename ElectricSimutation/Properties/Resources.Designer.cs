@@ -19,7 +19,7 @@ namespace ElectricSimutation.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,16 @@ namespace ElectricSimutation.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4A78211D_C800_4A6B_A6E9_90BEB4775AD4__png {
+            get {
+                object obj = ResourceManager.GetObject("{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -113,9 +123,29 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DC_power_supply1 {
+            get {
+                object obj = ResourceManager.GetObject("DC power supply1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Diesel_generator {
             get {
                 object obj = ResourceManager.GetObject("Diesel generator", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diesel_generator1 {
+            get {
+                object obj = ResourceManager.GetObject("Diesel generator1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +293,29 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LIBRARY4 {
+            get {
+                object obj = ResourceManager.GetObject("LIBRARY4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Load_cell {
             get {
                 object obj = ResourceManager.GetObject("Load cell", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Load_cell1 {
+            get {
+                object obj = ResourceManager.GetObject("Load cell1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +343,29 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Micro_PLC_31 {
+            get {
+                object obj = ResourceManager.GetObject("Micro PLC 31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Microchip {
             get {
                 object obj = ResourceManager.GetObject("Microchip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Microchip1 {
+            get {
+                object obj = ResourceManager.GetObject("Microchip1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,6 +463,16 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Operator_interface_11 {
+            get {
+                object obj = ResourceManager.GetObject("Operator interface 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OPTION {
             get {
                 object obj = ResourceManager.GetObject("OPTION", resourceCulture);
@@ -436,6 +516,16 @@ namespace ElectricSimutation.Properties {
         internal static System.Drawing.Bitmap Power_plant {
             get {
                 object obj = ResourceManager.GetObject("Power plant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Power_plant1 {
+            get {
+                object obj = ResourceManager.GetObject("Power plant1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -496,6 +586,16 @@ namespace ElectricSimutation.Properties {
         internal static System.Drawing.Bitmap Rectifier_1 {
             get {
                 object obj = ResourceManager.GetObject("Rectifier 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectifier_11 {
+            get {
+                object obj = ResourceManager.GetObject("Rectifier 11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -623,9 +723,29 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sensor_51 {
+            get {
+                object obj = ResourceManager.GetObject("Sensor 51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Skid_mounted_boiler {
             get {
                 object obj = ResourceManager.GetObject("Skid-mounted boiler", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skid_mounted_boiler1 {
+            get {
+                object obj = ResourceManager.GetObject("Skid-mounted boiler1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -696,6 +816,16 @@ namespace ElectricSimutation.Properties {
         internal static System.Drawing.Bitmap Transformer_1 {
             get {
                 object obj = ResourceManager.GetObject("Transformer 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transformer_11 {
+            get {
+                object obj = ResourceManager.GetObject("Transformer 11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
