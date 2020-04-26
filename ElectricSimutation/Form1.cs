@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -283,6 +284,50 @@ namespace ElectricSimutation
             }
         }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //MessageBox.Show("sele");
+            List<DiagramItem> ListItemDiagram = GetItemSelected();
+
+            if (ListItemDiagram.Count == 1)
+            {
+                if (ListItemDiagram[0].GetType() == typeof(DiagramLink))
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        ListItemDiagram[0].Pen = new MindFusion.Drawing.Pen(Color.Red, Convert.ToInt32(TextboxWidth.Text));
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        ListItemDiagram[0].Pen = new MindFusion.Drawing.Pen(Color.Blue, Convert.ToInt32(TextboxWidth.Text));
+                    }
+                }
+                else if (comboBox2.SelectedIndex == 2)
+                {
+
+                }
+            }
+
+        }
+
+        private void TextboxWidth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextboxWidth_Leave(object sender, EventArgs e)
+        {
+            List<DiagramItem> ListItemDiagram = GetItemSelected();
+            if (ListItemDiagram.Count == 1)
+            {
+                if (ListItemDiagram[0].GetType() == typeof(DiagramLink))
+                {
+                    Color color = ListItemDiagram[0].Pen.Color;
+                    ListItemDiagram[0].Pen = new MindFusion.Drawing.Pen(color, Convert.ToInt32(TextboxWidth.Text));
+                }
+            }
+        }
+
         private void diagram1_LinkSelected(object sender, LinkEventArgs e)
         {
              
@@ -295,6 +340,15 @@ namespace ElectricSimutation
                     {
                         TextboxLine.Text = ListItemDiagram[0].Text;
                         TextboxWidth.Text = ListItemDiagram[0].Pen.Width.ToString();
+
+                        if (ListItemDiagram[0].Pen.Color == Color.Red)
+                        {
+                            comboBox2.SelectedItem = 1;
+                        }
+                        else
+                        {
+                            comboBox2.SelectedItem = 2;
+                        }
                     }
                     catch (Exception)
                     {
@@ -311,6 +365,10 @@ namespace ElectricSimutation
         }
 
         #endregion
+
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
            
@@ -343,5 +401,12 @@ namespace ElectricSimutation
             form_4.Show();
             
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Users\DRANIX\Documents\3d\Read3d.exe");
+        }
+
+
     }
 }

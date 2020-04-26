@@ -51,3 +51,34 @@ E:\Project lam viec\ElectricSimutation\bin\Debug\AxInterop.WMPLib.dll
 E:\Project lam viec\ElectricSimutation\obj\Debug\Interop.WMPLib.dll
 E:\Project lam viec\ElectricSimutation\obj\Debug\AxInterop.WMPLib.dll
 E:\Project lam viec\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.ResolveComReference.cache
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\ElectricSimutation.exe.config
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\ElectricSimutation.exe
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\ElectricSimutation.pdb
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\HelixToolkit.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Barcodes.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Vsx.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Mapping.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Graphs.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Svg.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Scripting.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Common.WinForms.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Licensing.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\HelixToolkit.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Diagramming.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Interop.WMPLib.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\AxInterop.WMPLib.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.csprojAssemblyReference.cache
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\Interop.WMPLib.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\AxInterop.WMPLib.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.ResolveComReference.cache
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.Form1.resources
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.Form2.resources
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.Properties.Resources.resources
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.GenerateResource.cache
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.CoreCompileInputs.cache
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.csproj.CopyComplete
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.exe
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.pdb
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.Form4.resources

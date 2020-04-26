@@ -30,6 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menu_Home = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_home_minimized = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_home_close = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_File = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,57 +54,6 @@
             this.menu_Help = new System.Windows.Forms.ToolStripMenuItem();
             this.txb_Search = new System.Windows.Forms.ToolStripTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
-            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
-            this.diagram1 = new MindFusion.Diagramming.Diagram();
-            this.label_Menuname = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.TextboxWidth = new System.Windows.Forms.TextBox();
-            this.TextboxLine = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_Zoomout = new System.Windows.Forms.Button();
-            this.btn_Zoomin = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btn_Openproperties = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Device_1 = new System.Windows.Forms.Button();
-            this.Device_2 = new System.Windows.Forms.Button();
-            this.Device_3 = new System.Windows.Forms.Button();
-            this.Device_4 = new System.Windows.Forms.Button();
-            this.Device_5 = new System.Windows.Forms.Button();
-            this.Device_6 = new System.Windows.Forms.Button();
-            this.Device_7 = new System.Windows.Forms.Button();
-            this.Device_8 = new System.Windows.Forms.Button();
-            this.btn_option = new System.Windows.Forms.Button();
-            this.btn_Document = new System.Windows.Forms.Button();
-            this.btn_help = new System.Windows.Forms.Button();
-            this.btn_text = new System.Windows.Forms.Button();
-            this.btn_background = new System.Windows.Forms.Button();
-            this.btn_library = new System.Windows.Forms.Button();
-            this.btn_project = new System.Windows.Forms.Button();
             this.btn_Start = new System.Windows.Forms.Button();
             this.btn_SaveAs = new System.Windows.Forms.Button();
             this.btn_Save = new System.Windows.Forms.Button();
@@ -114,18 +66,67 @@
             this.btn_minimize = new System.Windows.Forms.Button();
             this.btn_fullscreen = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.menu_Home = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_home_minimized = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_home_close = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_option = new System.Windows.Forms.Button();
+            this.btn_Document = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btn_help = new System.Windows.Forms.Button();
+            this.btn_text = new System.Windows.Forms.Button();
+            this.btn_background = new System.Windows.Forms.Button();
+            this.btn_library = new System.Windows.Forms.Button();
+            this.btn_project = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TextboxWidth = new System.Windows.Forms.TextBox();
+            this.TextboxLine = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btn_Zoomout = new System.Windows.Forms.Button();
+            this.btn_Zoomin = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Openproperties = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
+            this.diagram1 = new MindFusion.Diagramming.Diagram();
+            this.label_Menuname = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Device_1 = new System.Windows.Forms.Button();
+            this.Device_2 = new System.Windows.Forms.Button();
+            this.Device_3 = new System.Windows.Forms.Button();
+            this.Device_4 = new System.Windows.Forms.Button();
+            this.Device_5 = new System.Windows.Forms.Button();
+            this.Device_6 = new System.Windows.Forms.Button();
+            this.Device_7 = new System.Windows.Forms.Button();
+            this.Device_8 = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
             this.ruler1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -144,6 +145,39 @@
             this.menuStrip1.Size = new System.Drawing.Size(431, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menu_Home
+            // 
+            this.menu_Home.BackColor = System.Drawing.Color.Transparent;
+            this.menu_Home.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_home_minimized,
+            this.menu_home_close});
+            this.menu_Home.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.menu_Home.ForeColor = System.Drawing.Color.White;
+            this.menu_Home.Image = global::ElectricSimutation.Properties.Resources.LOGO;
+            this.menu_Home.Name = "menu_Home";
+            this.menu_Home.Size = new System.Drawing.Size(138, 23);
+            this.menu_Home.Text = "Electric Simulation";
+            this.menu_Home.DropDownOpened += new System.EventHandler(this.menu_Home_DropDownOpened);
+            // 
+            // menu_home_minimized
+            // 
+            this.menu_home_minimized.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.menu_home_minimized.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.menu_home_minimized.ForeColor = System.Drawing.Color.White;
+            this.menu_home_minimized.Name = "menu_home_minimized";
+            this.menu_home_minimized.Size = new System.Drawing.Size(130, 22);
+            this.menu_home_minimized.Text = "Minimized";
+            // 
+            // menu_home_close
+            // 
+            this.menu_home_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.menu_home_close.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.menu_home_close.ForeColor = System.Drawing.Color.White;
+            this.menu_home_close.Name = "menu_home_close";
+            this.menu_home_close.Size = new System.Drawing.Size(130, 22);
+            this.menu_home_close.Text = "Close";
+            this.menu_home_close.Click += new System.EventHandler(this.menu_home_close_Click);
             // 
             // menu_File
             // 
@@ -354,726 +388,6 @@
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.panel2.Controls.Add(this.btn_option);
-            this.panel2.Controls.Add(this.btn_Document);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.btn_help);
-            this.panel2.Controls.Add(this.btn_text);
-            this.panel2.Controls.Add(this.btn_background);
-            this.panel2.Controls.Add(this.btn_library);
-            this.panel2.Controls.Add(this.btn_project);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 59);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(53, 642);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel5
-            // 
-            this.panel5.Location = new System.Drawing.Point(53, 1);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1318, 31);
-            this.panel5.TabIndex = 8;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.numericUpDown1);
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Controls.Add(this.checkBox1);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.TextboxWidth);
-            this.panel3.Controls.Add(this.TextboxLine);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1139, 93);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(232, 608);
-            this.panel3.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(232, 21);
-            this.panel4.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 19);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Properties";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label1);
-            this.panel6.Controls.Add(this.label3);
-            this.panel6.Controls.Add(this.btn_Zoomout);
-            this.panel6.Controls.Add(this.btn_Zoomin);
-            this.panel6.Controls.Add(this.button2);
-            this.panel6.Controls.Add(this.btn_Openproperties);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(302, 93);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(837, 35);
-            this.panel6.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(655, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 33);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "100%";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(53, 59);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1318, 34);
-            this.panel7.TabIndex = 8;
-            // 
-            // ruler1
-            // 
-            this.ruler1.AllowDrop = true;
-            this.ruler1.Controls.Add(this.diagramView1);
-            this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ruler1.Location = new System.Drawing.Point(302, 128);
-            this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(837, 573);
-            this.ruler1.TabIndex = 9;
-            this.ruler1.Text = "ruler1";
-            this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
-            // 
-            // diagramView1
-            // 
-            this.diagramView1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.diagramView1.Diagram = this.diagram1;
-            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diagramView1.LicenseKey = null;
-            this.diagramView1.Location = new System.Drawing.Point(18, 18);
-            this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(819, 555);
-            this.diagramView1.TabIndex = 3;
-            this.diagramView1.Text = "diagramView1";
-            this.diagramView1.Click += new System.EventHandler(this.diagramView1_Click);
-            // 
-            // diagram1
-            // 
-            this.diagram1.AllowMultipleResize = true;
-            this.diagram1.AllowSplitLinks = true;
-            this.diagram1.BackBrush = new MindFusion.Drawing.SolidBrush("#FF778899");
-            this.diagram1.LinkBrush = new MindFusion.Drawing.SolidBrush("#FF778899");
-            this.diagram1.LinkCrossings = MindFusion.Diagramming.LinkCrossings.Arcs;
-            this.diagram1.LinkEndsMovable = false;
-            this.diagram1.LinkHeadShape = null;
-            this.diagram1.LinkHeadShapeSize = 1F;
-            this.diagram1.LinkPen = new MindFusion.Drawing.Pen("0/#FF0000FF/0/0/0//0/0/10/");
-            this.diagram1.LinkTextStyle = MindFusion.Diagramming.LinkTextStyle.OverLongestSegment;
-            this.diagram1.RouteLinks = true;
-            this.diagram1.TouchThreshold = 0F;
-            this.diagram1.LinkCreated += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkCreated);
-            this.diagram1.LinkSelected += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkSelected);
-            // 
-            // label_Menuname
-            // 
-            this.label_Menuname.BackColor = System.Drawing.Color.Transparent;
-            this.label_Menuname.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label_Menuname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label_Menuname.ForeColor = System.Drawing.Color.White;
-            this.label_Menuname.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label_Menuname.Location = new System.Drawing.Point(3, 0);
-            this.label_Menuname.Name = "label_Menuname";
-            this.label_Menuname.Size = new System.Drawing.Size(224, 34);
-            this.label_Menuname.TabIndex = 0;
-            this.label_Menuname.Text = "Device";
-            this.label_Menuname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label_Menuname.Click += new System.EventHandler(this.label_Menuname_Click);
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel2.Controls.Add(this.label_Menuname);
-            this.flowLayoutPanel2.Controls.Add(this.Device_1);
-            this.flowLayoutPanel2.Controls.Add(this.Device_2);
-            this.flowLayoutPanel2.Controls.Add(this.Device_3);
-            this.flowLayoutPanel2.Controls.Add(this.Device_4);
-            this.flowLayoutPanel2.Controls.Add(this.Device_5);
-            this.flowLayoutPanel2.Controls.Add(this.Device_6);
-            this.flowLayoutPanel2.Controls.Add(this.Device_7);
-            this.flowLayoutPanel2.Controls.Add(this.Device_8);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(53, 93);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(249, 608);
-            this.flowLayoutPanel2.TabIndex = 3;
-            // 
-            // TextboxWidth
-            // 
-            this.TextboxWidth.Location = new System.Drawing.Point(98, 72);
-            this.TextboxWidth.Name = "TextboxWidth";
-            this.TextboxWidth.Size = new System.Drawing.Size(100, 20);
-            this.TextboxWidth.TabIndex = 2;
-            // 
-            // TextboxLine
-            // 
-            this.TextboxLine.Location = new System.Drawing.Point(98, 27);
-            this.TextboxLine.Name = "TextboxLine";
-            this.TextboxLine.Size = new System.Drawing.Size(100, 20);
-            this.TextboxLine.TabIndex = 1;
-            this.TextboxLine.Click += new System.EventHandler(this.TextboxLine_Click);
-            this.TextboxLine.Leave += new System.EventHandler(this.TextboxLine_Leave);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(28, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 17);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Opacity :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(36, 72);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 17);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Width : ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(48, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 17);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Text : ";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(17, 33);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Sharp",
-            "Rounded",
-            "Curved"});
-            this.comboBox1.Location = new System.Drawing.Point(98, 161);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(46, 161);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 17);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Type :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(42, 208);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 17);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Color :";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Red",
-            "Blue"});
-            this.comboBox2.Location = new System.Drawing.Point(98, 208);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 11;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(98, 116);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(101, 20);
-            this.numericUpDown1.TabIndex = 16;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(31, 279);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Edit  Style";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(112, 279);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Copy Style";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(69, 359);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "SAVE";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(31, 311);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(156, 23);
-            this.button6.TabIndex = 20;
-            this.button6.Text = "Set as default";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.Image = global::ElectricSimutation.Properties.Resources.PROJECT_NAME;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 33);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Projectname.es";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btn_Zoomout
-            // 
-            this.btn_Zoomout.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Zoomout.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Zoomout.FlatAppearance.BorderSize = 0;
-            this.btn_Zoomout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Zoomout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Zoomout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Zoomout.Image = global::ElectricSimutation.Properties.Resources.ZOOM_IN;
-            this.btn_Zoomout.Location = new System.Drawing.Point(702, 0);
-            this.btn_Zoomout.Name = "btn_Zoomout";
-            this.btn_Zoomout.Size = new System.Drawing.Size(34, 33);
-            this.btn_Zoomout.TabIndex = 4;
-            this.btn_Zoomout.UseVisualStyleBackColor = false;
-            // 
-            // btn_Zoomin
-            // 
-            this.btn_Zoomin.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Zoomin.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Zoomin.FlatAppearance.BorderSize = 0;
-            this.btn_Zoomin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Zoomin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Zoomin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Zoomin.Image = global::ElectricSimutation.Properties.Resources.ZOOM_OUT;
-            this.btn_Zoomin.Location = new System.Drawing.Point(736, 0);
-            this.btn_Zoomin.Name = "btn_Zoomin";
-            this.btn_Zoomin.Size = new System.Drawing.Size(34, 33);
-            this.btn_Zoomin.TabIndex = 3;
-            this.btn_Zoomin.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::ElectricSimutation.Properties.Resources.FULLSCREEN11;
-            this.button2.Location = new System.Drawing.Point(770, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(34, 33);
-            this.button2.TabIndex = 9;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // btn_Openproperties
-            // 
-            this.btn_Openproperties.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Openproperties.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Openproperties.FlatAppearance.BorderSize = 0;
-            this.btn_Openproperties.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Openproperties.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Openproperties.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Openproperties.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btn_Openproperties.ForeColor = System.Drawing.Color.White;
-            this.btn_Openproperties.Image = global::ElectricSimutation.Properties.Resources.Open;
-            this.btn_Openproperties.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Openproperties.Location = new System.Drawing.Point(804, 0);
-            this.btn_Openproperties.Name = "btn_Openproperties";
-            this.btn_Openproperties.Size = new System.Drawing.Size(31, 33);
-            this.btn_Openproperties.TabIndex = 2;
-            this.btn_Openproperties.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Openproperties.UseVisualStyleBackColor = false;
-            this.btn_Openproperties.Click += new System.EventHandler(this.btn_Openproperties_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::ElectricSimutation.Properties.Resources.EXIT11;
-            this.button1.Location = new System.Drawing.Point(210, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 19);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Device_1
-            // 
-            this.Device_1.BackColor = System.Drawing.Color.Transparent;
-            this.Device_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Device_1.FlatAppearance.BorderSize = 0;
-            this.Device_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_1.ForeColor = System.Drawing.Color.White;
-            this.Device_1.Image = global::ElectricSimutation.Properties.Resources.DC_power_supply1;
-            this.Device_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_1.Location = new System.Drawing.Point(3, 37);
-            this.Device_1.Name = "Device_1";
-            this.Device_1.Size = new System.Drawing.Size(75, 90);
-            this.Device_1.TabIndex = 1;
-            this.Device_1.Text = "Device 1";
-            this.Device_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_1.UseVisualStyleBackColor = false;
-            this.Device_1.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // Device_2
-            // 
-            this.Device_2.BackColor = System.Drawing.Color.Transparent;
-            this.Device_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Device_2.FlatAppearance.BorderSize = 0;
-            this.Device_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_2.ForeColor = System.Drawing.Color.White;
-            this.Device_2.Image = global::ElectricSimutation.Properties.Resources.Diesel_generator1;
-            this.Device_2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_2.Location = new System.Drawing.Point(84, 37);
-            this.Device_2.Name = "Device_2";
-            this.Device_2.Size = new System.Drawing.Size(75, 90);
-            this.Device_2.TabIndex = 2;
-            this.Device_2.Text = "Device 2";
-            this.Device_2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_2.UseVisualStyleBackColor = false;
-            this.Device_2.Click += new System.EventHandler(this.Device_2_Click);
-            // 
-            // Device_3
-            // 
-            this.Device_3.BackColor = System.Drawing.Color.Transparent;
-            this.Device_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Device_3.FlatAppearance.BorderSize = 0;
-            this.Device_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_3.ForeColor = System.Drawing.Color.White;
-            this.Device_3.Image = global::ElectricSimutation.Properties.Resources.Load_cell1;
-            this.Device_3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_3.Location = new System.Drawing.Point(165, 37);
-            this.Device_3.Name = "Device_3";
-            this.Device_3.Size = new System.Drawing.Size(75, 90);
-            this.Device_3.TabIndex = 3;
-            this.Device_3.Text = "Device 3";
-            this.Device_3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_3.UseVisualStyleBackColor = false;
-            this.Device_3.Click += new System.EventHandler(this.Device_3_Click);
-            // 
-            // Device_4
-            // 
-            this.Device_4.BackColor = System.Drawing.Color.Transparent;
-            this.Device_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Device_4.FlatAppearance.BorderSize = 0;
-            this.Device_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_4.ForeColor = System.Drawing.Color.White;
-            this.Device_4.Image = global::ElectricSimutation.Properties.Resources.Transformer_11;
-            this.Device_4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_4.Location = new System.Drawing.Point(3, 133);
-            this.Device_4.Name = "Device_4";
-            this.Device_4.Size = new System.Drawing.Size(75, 90);
-            this.Device_4.TabIndex = 4;
-            this.Device_4.Text = "Device 4";
-            this.Device_4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_4.UseVisualStyleBackColor = false;
-            this.Device_4.Click += new System.EventHandler(this.Device_4_Click);
-            // 
-            // Device_5
-            // 
-            this.Device_5.BackColor = System.Drawing.Color.Transparent;
-            this.Device_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Device_5.FlatAppearance.BorderSize = 0;
-            this.Device_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_5.ForeColor = System.Drawing.Color.White;
-            this.Device_5.Image = global::ElectricSimutation.Properties.Resources.Microchip1;
-            this.Device_5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_5.Location = new System.Drawing.Point(84, 133);
-            this.Device_5.Name = "Device_5";
-            this.Device_5.Size = new System.Drawing.Size(75, 90);
-            this.Device_5.TabIndex = 5;
-            this.Device_5.Text = "Device 5";
-            this.Device_5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_5.UseVisualStyleBackColor = false;
-            this.Device_5.Click += new System.EventHandler(this.Device_5_Click);
-            // 
-            // Device_6
-            // 
-            this.Device_6.BackColor = System.Drawing.Color.Transparent;
-            this.Device_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Device_6.FlatAppearance.BorderSize = 0;
-            this.Device_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_6.ForeColor = System.Drawing.Color.White;
-            this.Device_6.Image = global::ElectricSimutation.Properties.Resources.Operator_interface_11;
-            this.Device_6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_6.Location = new System.Drawing.Point(165, 133);
-            this.Device_6.Name = "Device_6";
-            this.Device_6.Size = new System.Drawing.Size(75, 90);
-            this.Device_6.TabIndex = 6;
-            this.Device_6.Text = "Device 6";
-            this.Device_6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_6.UseVisualStyleBackColor = false;
-            this.Device_6.Click += new System.EventHandler(this.Device_6_Click);
-            // 
-            // Device_7
-            // 
-            this.Device_7.BackColor = System.Drawing.Color.Transparent;
-            this.Device_7.FlatAppearance.BorderSize = 0;
-            this.Device_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_7.ForeColor = System.Drawing.Color.White;
-            this.Device_7.Image = global::ElectricSimutation.Properties.Resources.Power_plant1;
-            this.Device_7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_7.Location = new System.Drawing.Point(3, 229);
-            this.Device_7.Name = "Device_7";
-            this.Device_7.Size = new System.Drawing.Size(75, 90);
-            this.Device_7.TabIndex = 7;
-            this.Device_7.Text = "Device 7";
-            this.Device_7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_7.UseVisualStyleBackColor = false;
-            this.Device_7.Click += new System.EventHandler(this.Device_7_Click);
-            // 
-            // Device_8
-            // 
-            this.Device_8.BackColor = System.Drawing.Color.Transparent;
-            this.Device_8.FlatAppearance.BorderSize = 0;
-            this.Device_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Device_8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Device_8.ForeColor = System.Drawing.Color.White;
-            this.Device_8.Image = global::ElectricSimutation.Properties.Resources.Rectifier_11;
-            this.Device_8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_8.Location = new System.Drawing.Point(84, 229);
-            this.Device_8.Name = "Device_8";
-            this.Device_8.Size = new System.Drawing.Size(75, 90);
-            this.Device_8.TabIndex = 8;
-            this.Device_8.Text = "Device 8";
-            this.Device_8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Device_8.UseVisualStyleBackColor = false;
-            this.Device_8.Click += new System.EventHandler(this.Device_8_Click);
-            // 
-            // btn_option
-            // 
-            this.btn_option.BackColor = System.Drawing.Color.Transparent;
-            this.btn_option.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_option.FlatAppearance.BorderSize = 0;
-            this.btn_option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_option.Image = global::ElectricSimutation.Properties.Resources.OPTION3;
-            this.btn_option.Location = new System.Drawing.Point(0, 336);
-            this.btn_option.Name = "btn_option";
-            this.btn_option.Size = new System.Drawing.Size(53, 56);
-            this.btn_option.TabIndex = 5;
-            this.btn_option.UseVisualStyleBackColor = false;
-            this.btn_option.Click += new System.EventHandler(this.btn_option_Click);
-            // 
-            // btn_Document
-            // 
-            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Document.FlatAppearance.BorderSize = 0;
-            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Document.Image = global::ElectricSimutation.Properties.Resources.LIBRARY4;
-            this.btn_Document.Location = new System.Drawing.Point(0, 280);
-            this.btn_Document.Name = "btn_Document";
-            this.btn_Document.Size = new System.Drawing.Size(53, 56);
-            this.btn_Document.TabIndex = 9;
-            this.btn_Document.UseVisualStyleBackColor = false;
-            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
-            // 
-            // btn_help
-            // 
-            this.btn_help.BackColor = System.Drawing.Color.Transparent;
-            this.btn_help.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_help.FlatAppearance.BorderSize = 0;
-            this.btn_help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_help.Image = global::ElectricSimutation.Properties.Resources.HELP3;
-            this.btn_help.Location = new System.Drawing.Point(0, 224);
-            this.btn_help.Name = "btn_help";
-            this.btn_help.Size = new System.Drawing.Size(53, 56);
-            this.btn_help.TabIndex = 4;
-            this.btn_help.UseVisualStyleBackColor = false;
-            this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
-            // 
-            // btn_text
-            // 
-            this.btn_text.BackColor = System.Drawing.Color.Transparent;
-            this.btn_text.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_text.FlatAppearance.BorderSize = 0;
-            this.btn_text.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_text.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_text.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_text.Image = global::ElectricSimutation.Properties.Resources.TEXT3;
-            this.btn_text.Location = new System.Drawing.Point(0, 168);
-            this.btn_text.Name = "btn_text";
-            this.btn_text.Size = new System.Drawing.Size(53, 56);
-            this.btn_text.TabIndex = 3;
-            this.btn_text.UseVisualStyleBackColor = false;
-            this.btn_text.Click += new System.EventHandler(this.btn_text_Click);
-            // 
-            // btn_background
-            // 
-            this.btn_background.BackColor = System.Drawing.Color.Transparent;
-            this.btn_background.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_background.FlatAppearance.BorderSize = 0;
-            this.btn_background.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_background.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_background.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_background.Image = global::ElectricSimutation.Properties.Resources.BACKGROUND3;
-            this.btn_background.Location = new System.Drawing.Point(0, 112);
-            this.btn_background.Name = "btn_background";
-            this.btn_background.Size = new System.Drawing.Size(53, 56);
-            this.btn_background.TabIndex = 2;
-            this.btn_background.UseVisualStyleBackColor = false;
-            this.btn_background.Click += new System.EventHandler(this.btn_background_Click);
-            // 
-            // btn_library
-            // 
-            this.btn_library.BackColor = System.Drawing.Color.Transparent;
-            this.btn_library.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_library.FlatAppearance.BorderSize = 0;
-            this.btn_library.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_library.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_library.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_library.Image = global::ElectricSimutation.Properties.Resources.LIBRARY3;
-            this.btn_library.Location = new System.Drawing.Point(0, 56);
-            this.btn_library.Name = "btn_library";
-            this.btn_library.Size = new System.Drawing.Size(53, 56);
-            this.btn_library.TabIndex = 1;
-            this.btn_library.UseVisualStyleBackColor = false;
-            this.btn_library.Click += new System.EventHandler(this.btn_library_Click);
-            // 
-            // btn_project
-            // 
-            this.btn_project.BackColor = System.Drawing.Color.Transparent;
-            this.btn_project.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_project.FlatAppearance.BorderSize = 0;
-            this.btn_project.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_project.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
-            this.btn_project.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_project.Image = global::ElectricSimutation.Properties.Resources.PROJECT3;
-            this.btn_project.Location = new System.Drawing.Point(0, 0);
-            this.btn_project.Name = "btn_project";
-            this.btn_project.Size = new System.Drawing.Size(53, 56);
-            this.btn_project.TabIndex = 0;
-            this.btn_project.UseVisualStyleBackColor = false;
-            this.btn_project.Click += new System.EventHandler(this.btn_project_Click);
-            // 
             // btn_Start
             // 
             this.btn_Start.BackColor = System.Drawing.Color.Transparent;
@@ -1260,38 +574,745 @@
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // menu_Home
+            // panel2
             // 
-            this.menu_Home.BackColor = System.Drawing.Color.Transparent;
-            this.menu_Home.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menu_home_minimized,
-            this.menu_home_close});
-            this.menu_Home.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.menu_Home.ForeColor = System.Drawing.Color.White;
-            this.menu_Home.Image = global::ElectricSimutation.Properties.Resources.LOGO;
-            this.menu_Home.Name = "menu_Home";
-            this.menu_Home.Size = new System.Drawing.Size(138, 23);
-            this.menu_Home.Text = "Electric Simulation";
-            this.menu_Home.DropDownOpened += new System.EventHandler(this.menu_Home_DropDownOpened);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.panel2.Controls.Add(this.btn_option);
+            this.panel2.Controls.Add(this.btn_Document);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.btn_help);
+            this.panel2.Controls.Add(this.btn_text);
+            this.panel2.Controls.Add(this.btn_background);
+            this.panel2.Controls.Add(this.btn_library);
+            this.panel2.Controls.Add(this.btn_project);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 59);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(53, 642);
+            this.panel2.TabIndex = 1;
             // 
-            // menu_home_minimized
+            // btn_option
             // 
-            this.menu_home_minimized.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.menu_home_minimized.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.menu_home_minimized.ForeColor = System.Drawing.Color.White;
-            this.menu_home_minimized.Name = "menu_home_minimized";
-            this.menu_home_minimized.Size = new System.Drawing.Size(130, 22);
-            this.menu_home_minimized.Text = "Minimized";
+            this.btn_option.BackColor = System.Drawing.Color.Transparent;
+            this.btn_option.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_option.FlatAppearance.BorderSize = 0;
+            this.btn_option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_option.Image = global::ElectricSimutation.Properties.Resources.OPTION3;
+            this.btn_option.Location = new System.Drawing.Point(0, 336);
+            this.btn_option.Name = "btn_option";
+            this.btn_option.Size = new System.Drawing.Size(53, 56);
+            this.btn_option.TabIndex = 5;
+            this.btn_option.UseVisualStyleBackColor = false;
+            this.btn_option.Click += new System.EventHandler(this.btn_option_Click);
             // 
-            // menu_home_close
+            // btn_Document
             // 
-            this.menu_home_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.menu_home_close.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.menu_home_close.ForeColor = System.Drawing.Color.White;
-            this.menu_home_close.Name = "menu_home_close";
-            this.menu_home_close.Size = new System.Drawing.Size(130, 22);
-            this.menu_home_close.Text = "Close";
-            this.menu_home_close.Click += new System.EventHandler(this.menu_home_close_Click);
+            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Document.FlatAppearance.BorderSize = 0;
+            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Document.Image = global::ElectricSimutation.Properties.Resources.LIBRARY4;
+            this.btn_Document.Location = new System.Drawing.Point(0, 280);
+            this.btn_Document.Name = "btn_Document";
+            this.btn_Document.Size = new System.Drawing.Size(53, 56);
+            this.btn_Document.TabIndex = 9;
+            this.btn_Document.UseVisualStyleBackColor = false;
+            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(53, 1);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1318, 31);
+            this.panel5.TabIndex = 8;
+            // 
+            // btn_help
+            // 
+            this.btn_help.BackColor = System.Drawing.Color.Transparent;
+            this.btn_help.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_help.FlatAppearance.BorderSize = 0;
+            this.btn_help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_help.Image = global::ElectricSimutation.Properties.Resources.HELP3;
+            this.btn_help.Location = new System.Drawing.Point(0, 224);
+            this.btn_help.Name = "btn_help";
+            this.btn_help.Size = new System.Drawing.Size(53, 56);
+            this.btn_help.TabIndex = 4;
+            this.btn_help.UseVisualStyleBackColor = false;
+            this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
+            // 
+            // btn_text
+            // 
+            this.btn_text.BackColor = System.Drawing.Color.Transparent;
+            this.btn_text.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_text.FlatAppearance.BorderSize = 0;
+            this.btn_text.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_text.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_text.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_text.Image = global::ElectricSimutation.Properties.Resources.TEXT3;
+            this.btn_text.Location = new System.Drawing.Point(0, 168);
+            this.btn_text.Name = "btn_text";
+            this.btn_text.Size = new System.Drawing.Size(53, 56);
+            this.btn_text.TabIndex = 3;
+            this.btn_text.UseVisualStyleBackColor = false;
+            this.btn_text.Click += new System.EventHandler(this.btn_text_Click);
+            // 
+            // btn_background
+            // 
+            this.btn_background.BackColor = System.Drawing.Color.Transparent;
+            this.btn_background.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_background.FlatAppearance.BorderSize = 0;
+            this.btn_background.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_background.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_background.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_background.Image = global::ElectricSimutation.Properties.Resources.BACKGROUND3;
+            this.btn_background.Location = new System.Drawing.Point(0, 112);
+            this.btn_background.Name = "btn_background";
+            this.btn_background.Size = new System.Drawing.Size(53, 56);
+            this.btn_background.TabIndex = 2;
+            this.btn_background.UseVisualStyleBackColor = false;
+            this.btn_background.Click += new System.EventHandler(this.btn_background_Click);
+            // 
+            // btn_library
+            // 
+            this.btn_library.BackColor = System.Drawing.Color.Transparent;
+            this.btn_library.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_library.FlatAppearance.BorderSize = 0;
+            this.btn_library.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_library.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_library.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_library.Image = global::ElectricSimutation.Properties.Resources.LIBRARY3;
+            this.btn_library.Location = new System.Drawing.Point(0, 56);
+            this.btn_library.Name = "btn_library";
+            this.btn_library.Size = new System.Drawing.Size(53, 56);
+            this.btn_library.TabIndex = 1;
+            this.btn_library.UseVisualStyleBackColor = false;
+            this.btn_library.Click += new System.EventHandler(this.btn_library_Click);
+            // 
+            // btn_project
+            // 
+            this.btn_project.BackColor = System.Drawing.Color.Transparent;
+            this.btn_project.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_project.FlatAppearance.BorderSize = 0;
+            this.btn_project.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_project.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.btn_project.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_project.Image = global::ElectricSimutation.Properties.Resources.PROJECT3;
+            this.btn_project.Location = new System.Drawing.Point(0, 0);
+            this.btn_project.Name = "btn_project";
+            this.btn_project.Size = new System.Drawing.Size(53, 56);
+            this.btn_project.TabIndex = 0;
+            this.btn_project.UseVisualStyleBackColor = false;
+            this.btn_project.Click += new System.EventHandler(this.btn_project_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.panel3.Controls.Add(this.button7);
+            this.panel3.Controls.Add(this.button6);
+            this.panel3.Controls.Add(this.button5);
+            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.numericUpDown1);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.comboBox2);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.checkBox1);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.TextboxWidth);
+            this.panel3.Controls.Add(this.TextboxLine);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(1139, 93);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(232, 608);
+            this.panel3.TabIndex = 4;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(69, 404);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 21;
+            this.button7.Text = "SHOW 3D";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(31, 311);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(156, 23);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "Set as default";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(69, 359);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 19;
+            this.button5.Text = "SAVE";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(112, 279);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Copy Style";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(62)))), ((int)(((byte)(83)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(31, 279);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Edit  Style";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(98, 116);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(101, 20);
+            this.numericUpDown1.TabIndex = 16;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(42, 208);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(47, 17);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Color :";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Red",
+            "Blue"});
+            this.comboBox2.Location = new System.Drawing.Point(98, 208);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(100, 21);
+            this.comboBox2.TabIndex = 11;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(46, 161);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 17);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Type :";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Sharp",
+            "Rounded",
+            "Curved"});
+            this.comboBox1.Location = new System.Drawing.Point(98, 161);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 21);
+            this.comboBox1.TabIndex = 9;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(17, 33);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(28, 115);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(61, 17);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Opacity :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(36, 72);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 17);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Width : ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(48, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 17);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Text : ";
+            // 
+            // TextboxWidth
+            // 
+            this.TextboxWidth.Location = new System.Drawing.Point(98, 72);
+            this.TextboxWidth.Name = "TextboxWidth";
+            this.TextboxWidth.Size = new System.Drawing.Size(100, 20);
+            this.TextboxWidth.TabIndex = 2;
+            this.TextboxWidth.Click += new System.EventHandler(this.TextboxWidth_Click);
+            this.TextboxWidth.Leave += new System.EventHandler(this.TextboxWidth_Leave);
+            // 
+            // TextboxLine
+            // 
+            this.TextboxLine.Location = new System.Drawing.Point(98, 27);
+            this.TextboxLine.Name = "TextboxLine";
+            this.TextboxLine.Size = new System.Drawing.Size(100, 20);
+            this.TextboxLine.TabIndex = 1;
+            this.TextboxLine.Click += new System.EventHandler(this.TextboxLine_Click);
+            this.TextboxLine.Leave += new System.EventHandler(this.TextboxLine_Leave);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(232, 21);
+            this.panel4.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::ElectricSimutation.Properties.Resources.EXIT11;
+            this.button1.Location = new System.Drawing.Point(210, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 19);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Properties";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.btn_Zoomout);
+            this.panel6.Controls.Add(this.btn_Zoomin);
+            this.panel6.Controls.Add(this.button2);
+            this.panel6.Controls.Add(this.btn_Openproperties);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(302, 93);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(837, 35);
+            this.panel6.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label1.Image = global::ElectricSimutation.Properties.Resources.PROJECT_NAME;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(144, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Projectname.es";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(655, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 33);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "100%";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_Zoomout
+            // 
+            this.btn_Zoomout.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Zoomout.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Zoomout.FlatAppearance.BorderSize = 0;
+            this.btn_Zoomout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Zoomout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Zoomout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Zoomout.Image = global::ElectricSimutation.Properties.Resources.ZOOM_IN;
+            this.btn_Zoomout.Location = new System.Drawing.Point(702, 0);
+            this.btn_Zoomout.Name = "btn_Zoomout";
+            this.btn_Zoomout.Size = new System.Drawing.Size(34, 33);
+            this.btn_Zoomout.TabIndex = 4;
+            this.btn_Zoomout.UseVisualStyleBackColor = false;
+            // 
+            // btn_Zoomin
+            // 
+            this.btn_Zoomin.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Zoomin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Zoomin.FlatAppearance.BorderSize = 0;
+            this.btn_Zoomin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Zoomin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Zoomin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Zoomin.Image = global::ElectricSimutation.Properties.Resources.ZOOM_OUT;
+            this.btn_Zoomin.Location = new System.Drawing.Point(736, 0);
+            this.btn_Zoomin.Name = "btn_Zoomin";
+            this.btn_Zoomin.Size = new System.Drawing.Size(34, 33);
+            this.btn_Zoomin.TabIndex = 3;
+            this.btn_Zoomin.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::ElectricSimutation.Properties.Resources.FULLSCREEN11;
+            this.button2.Location = new System.Drawing.Point(770, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(34, 33);
+            this.button2.TabIndex = 9;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btn_Openproperties
+            // 
+            this.btn_Openproperties.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Openproperties.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Openproperties.FlatAppearance.BorderSize = 0;
+            this.btn_Openproperties.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Openproperties.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Openproperties.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Openproperties.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn_Openproperties.ForeColor = System.Drawing.Color.White;
+            this.btn_Openproperties.Image = global::ElectricSimutation.Properties.Resources.Open;
+            this.btn_Openproperties.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Openproperties.Location = new System.Drawing.Point(804, 0);
+            this.btn_Openproperties.Name = "btn_Openproperties";
+            this.btn_Openproperties.Size = new System.Drawing.Size(31, 33);
+            this.btn_Openproperties.TabIndex = 2;
+            this.btn_Openproperties.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Openproperties.UseVisualStyleBackColor = false;
+            this.btn_Openproperties.Click += new System.EventHandler(this.btn_Openproperties_Click);
+            // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(53, 59);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1318, 34);
+            this.panel7.TabIndex = 8;
+            // 
+            // ruler1
+            // 
+            this.ruler1.AllowDrop = true;
+            this.ruler1.Controls.Add(this.diagramView1);
+            this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ruler1.Location = new System.Drawing.Point(302, 128);
+            this.ruler1.Name = "ruler1";
+            this.ruler1.Size = new System.Drawing.Size(837, 573);
+            this.ruler1.TabIndex = 9;
+            this.ruler1.Text = "ruler1";
+            this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
+            // 
+            // diagramView1
+            // 
+            this.diagramView1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.diagramView1.Diagram = this.diagram1;
+            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.diagramView1.LicenseKey = null;
+            this.diagramView1.Location = new System.Drawing.Point(18, 18);
+            this.diagramView1.Name = "diagramView1";
+            this.diagramView1.Size = new System.Drawing.Size(819, 555);
+            this.diagramView1.TabIndex = 3;
+            this.diagramView1.Text = "diagramView1";
+            this.diagramView1.Click += new System.EventHandler(this.diagramView1_Click);
+            // 
+            // diagram1
+            // 
+            this.diagram1.AllowMultipleResize = true;
+            this.diagram1.AllowSplitLinks = true;
+            this.diagram1.BackBrush = new MindFusion.Drawing.SolidBrush("#FF778899");
+            this.diagram1.LinkBrush = new MindFusion.Drawing.SolidBrush("#FF778899");
+            this.diagram1.LinkCrossings = MindFusion.Diagramming.LinkCrossings.Arcs;
+            this.diagram1.LinkEndsMovable = false;
+            this.diagram1.LinkHeadShape = null;
+            this.diagram1.LinkHeadShapeSize = 1F;
+            this.diagram1.LinkPen = new MindFusion.Drawing.Pen("0/#FF0000FF/0/0/0//0/0/10/");
+            this.diagram1.LinkTextStyle = MindFusion.Diagramming.LinkTextStyle.OverLongestSegment;
+            this.diagram1.RouteLinks = true;
+            this.diagram1.TouchThreshold = 0F;
+            this.diagram1.LinkCreated += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkCreated);
+            this.diagram1.LinkSelected += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkSelected);
+            // 
+            // label_Menuname
+            // 
+            this.label_Menuname.BackColor = System.Drawing.Color.Transparent;
+            this.label_Menuname.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label_Menuname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.label_Menuname.ForeColor = System.Drawing.Color.White;
+            this.label_Menuname.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label_Menuname.Location = new System.Drawing.Point(3, 0);
+            this.label_Menuname.Name = "label_Menuname";
+            this.label_Menuname.Size = new System.Drawing.Size(224, 34);
+            this.label_Menuname.TabIndex = 0;
+            this.label_Menuname.Text = "Device";
+            this.label_Menuname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_Menuname.Click += new System.EventHandler(this.label_Menuname_Click);
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel2.Controls.Add(this.label_Menuname);
+            this.flowLayoutPanel2.Controls.Add(this.Device_1);
+            this.flowLayoutPanel2.Controls.Add(this.Device_2);
+            this.flowLayoutPanel2.Controls.Add(this.Device_3);
+            this.flowLayoutPanel2.Controls.Add(this.Device_4);
+            this.flowLayoutPanel2.Controls.Add(this.Device_5);
+            this.flowLayoutPanel2.Controls.Add(this.Device_6);
+            this.flowLayoutPanel2.Controls.Add(this.Device_7);
+            this.flowLayoutPanel2.Controls.Add(this.Device_8);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(53, 93);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(249, 608);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
+            // Device_1
+            // 
+            this.Device_1.BackColor = System.Drawing.Color.Transparent;
+            this.Device_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Device_1.FlatAppearance.BorderSize = 0;
+            this.Device_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_1.ForeColor = System.Drawing.Color.White;
+            this.Device_1.Image = global::ElectricSimutation.Properties.Resources.DC_power_supply1;
+            this.Device_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_1.Location = new System.Drawing.Point(3, 37);
+            this.Device_1.Name = "Device_1";
+            this.Device_1.Size = new System.Drawing.Size(75, 90);
+            this.Device_1.TabIndex = 1;
+            this.Device_1.Text = "Device 1";
+            this.Device_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_1.UseVisualStyleBackColor = false;
+            this.Device_1.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Device_2
+            // 
+            this.Device_2.BackColor = System.Drawing.Color.Transparent;
+            this.Device_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Device_2.FlatAppearance.BorderSize = 0;
+            this.Device_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_2.ForeColor = System.Drawing.Color.White;
+            this.Device_2.Image = global::ElectricSimutation.Properties.Resources.Diesel_generator1;
+            this.Device_2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_2.Location = new System.Drawing.Point(84, 37);
+            this.Device_2.Name = "Device_2";
+            this.Device_2.Size = new System.Drawing.Size(75, 90);
+            this.Device_2.TabIndex = 2;
+            this.Device_2.Text = "Device 2";
+            this.Device_2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_2.UseVisualStyleBackColor = false;
+            this.Device_2.Click += new System.EventHandler(this.Device_2_Click);
+            // 
+            // Device_3
+            // 
+            this.Device_3.BackColor = System.Drawing.Color.Transparent;
+            this.Device_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Device_3.FlatAppearance.BorderSize = 0;
+            this.Device_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_3.ForeColor = System.Drawing.Color.White;
+            this.Device_3.Image = global::ElectricSimutation.Properties.Resources.Load_cell1;
+            this.Device_3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_3.Location = new System.Drawing.Point(165, 37);
+            this.Device_3.Name = "Device_3";
+            this.Device_3.Size = new System.Drawing.Size(75, 90);
+            this.Device_3.TabIndex = 3;
+            this.Device_3.Text = "Device 3";
+            this.Device_3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_3.UseVisualStyleBackColor = false;
+            this.Device_3.Click += new System.EventHandler(this.Device_3_Click);
+            // 
+            // Device_4
+            // 
+            this.Device_4.BackColor = System.Drawing.Color.Transparent;
+            this.Device_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Device_4.FlatAppearance.BorderSize = 0;
+            this.Device_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_4.ForeColor = System.Drawing.Color.White;
+            this.Device_4.Image = global::ElectricSimutation.Properties.Resources.Transformer_11;
+            this.Device_4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_4.Location = new System.Drawing.Point(3, 133);
+            this.Device_4.Name = "Device_4";
+            this.Device_4.Size = new System.Drawing.Size(75, 90);
+            this.Device_4.TabIndex = 4;
+            this.Device_4.Text = "Device 4";
+            this.Device_4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_4.UseVisualStyleBackColor = false;
+            this.Device_4.Click += new System.EventHandler(this.Device_4_Click);
+            // 
+            // Device_5
+            // 
+            this.Device_5.BackColor = System.Drawing.Color.Transparent;
+            this.Device_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Device_5.FlatAppearance.BorderSize = 0;
+            this.Device_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_5.ForeColor = System.Drawing.Color.White;
+            this.Device_5.Image = global::ElectricSimutation.Properties.Resources.Microchip1;
+            this.Device_5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_5.Location = new System.Drawing.Point(84, 133);
+            this.Device_5.Name = "Device_5";
+            this.Device_5.Size = new System.Drawing.Size(75, 90);
+            this.Device_5.TabIndex = 5;
+            this.Device_5.Text = "Device 5";
+            this.Device_5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_5.UseVisualStyleBackColor = false;
+            this.Device_5.Click += new System.EventHandler(this.Device_5_Click);
+            // 
+            // Device_6
+            // 
+            this.Device_6.BackColor = System.Drawing.Color.Transparent;
+            this.Device_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Device_6.FlatAppearance.BorderSize = 0;
+            this.Device_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_6.ForeColor = System.Drawing.Color.White;
+            this.Device_6.Image = global::ElectricSimutation.Properties.Resources.Operator_interface_11;
+            this.Device_6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_6.Location = new System.Drawing.Point(165, 133);
+            this.Device_6.Name = "Device_6";
+            this.Device_6.Size = new System.Drawing.Size(75, 90);
+            this.Device_6.TabIndex = 6;
+            this.Device_6.Text = "Device 6";
+            this.Device_6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_6.UseVisualStyleBackColor = false;
+            this.Device_6.Click += new System.EventHandler(this.Device_6_Click);
+            // 
+            // Device_7
+            // 
+            this.Device_7.BackColor = System.Drawing.Color.Transparent;
+            this.Device_7.FlatAppearance.BorderSize = 0;
+            this.Device_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_7.ForeColor = System.Drawing.Color.White;
+            this.Device_7.Image = global::ElectricSimutation.Properties.Resources.Power_plant1;
+            this.Device_7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_7.Location = new System.Drawing.Point(3, 229);
+            this.Device_7.Name = "Device_7";
+            this.Device_7.Size = new System.Drawing.Size(75, 90);
+            this.Device_7.TabIndex = 7;
+            this.Device_7.Text = "Device 7";
+            this.Device_7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_7.UseVisualStyleBackColor = false;
+            this.Device_7.Click += new System.EventHandler(this.Device_7_Click);
+            // 
+            // Device_8
+            // 
+            this.Device_8.BackColor = System.Drawing.Color.Transparent;
+            this.Device_8.FlatAppearance.BorderSize = 0;
+            this.Device_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Device_8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Device_8.ForeColor = System.Drawing.Color.White;
+            this.Device_8.Image = global::ElectricSimutation.Properties.Resources.Rectifier_11;
+            this.Device_8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Device_8.Location = new System.Drawing.Point(84, 229);
+            this.Device_8.Name = "Device_8";
+            this.Device_8.Size = new System.Drawing.Size(75, 90);
+            this.Device_8.TabIndex = 8;
+            this.Device_8.Text = "Device 8";
+            this.Device_8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Device_8.UseVisualStyleBackColor = false;
+            this.Device_8.Click += new System.EventHandler(this.Device_8_Click);
             // 
             // Form1
             // 
@@ -1320,11 +1341,11 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.ruler1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1419,6 +1440,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btn_Document;
+        private System.Windows.Forms.Button button7;
     }
 }
 
