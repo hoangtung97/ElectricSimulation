@@ -63,6 +63,16 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3D {
+            get {
+                object obj = ResourceManager.GetObject("3D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4A78211D_C800_4A6B_A6E9_90BEB4775AD4__png {
             get {
                 object obj = ResourceManager.GetObject("{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png", resourceCulture);
@@ -146,6 +156,16 @@ namespace ElectricSimutation.Properties {
         internal static System.Drawing.Bitmap Diesel_generator1 {
             get {
                 object obj = ResourceManager.GetObject("Diesel generator1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Editor {
+            get {
+                object obj = ResourceManager.GetObject("Editor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +346,16 @@ namespace ElectricSimutation.Properties {
         internal static System.Drawing.Bitmap LOGO {
             get {
                 object obj = ResourceManager.GetObject("LOGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGO1 {
+            get {
+                object obj = ResourceManager.GetObject("LOGO1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -130,8 +130,8 @@
   <data name="PROJECT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PROJECT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NEW+PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW+PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OPEN_FILE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OPEN_FILE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,6 +166,9 @@
   <data name="REDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REDO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LOGO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LIBRARY4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LIBRARY2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,6 +186,9 @@
   </data>
   <data name="Diesel generator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\device\Diesel generator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PROJECT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,14 +250,11 @@
   <data name="HELP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HELP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DC power supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\device\DC power supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TEXT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MINIMIZE11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MINIMIZE11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NEW+PROJECT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NEW+PROJECT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OPTION2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OPTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,6 +298,9 @@
   <data name="LIBRARY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Power plant1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Power plant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -322,8 +328,8 @@
   <data name="RESTORE DOWN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RESTORE DOWN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TEXT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TEXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DC power supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\device\DC power supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="START1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\START1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,6 +352,9 @@
   <data name="LIBRARY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LIBRARY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HELP3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HELP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -358,7 +367,7 @@
   <data name="MINIMIZE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MINIMIZE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Editor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
