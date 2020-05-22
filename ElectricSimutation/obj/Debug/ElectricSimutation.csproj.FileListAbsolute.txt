@@ -82,3 +82,8 @@ D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutati
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.exe
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.pdb
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.Form4.resources
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Guna.UI2.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\AxInterop.ShockwaveFlashObjects.dll

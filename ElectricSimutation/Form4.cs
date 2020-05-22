@@ -44,6 +44,9 @@ namespace ElectricSimutation
             mov = 0;
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            axShockwaveFlash1.Movie = Environment.CurrentDirectory + @"\Document\transformers.swf";
+        }
     }
 }

@@ -932,9 +932,9 @@
             this.Device_8.ForeColor = System.Drawing.Color.White;
             this.Device_8.Image = global::ElectricSimutation.Properties.Resources.Rectifier_11;
             this.Device_8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Device_8.Location = new System.Drawing.Point(84, 237);
+            this.Device_8.Location = new System.Drawing.Point(84, 230);
             this.Device_8.Name = "Device_8";
-            this.Device_8.Size = new System.Drawing.Size(75, 90);
+            this.Device_8.Size = new System.Drawing.Size(75, 97);
             this.Device_8.TabIndex = 8;
             this.Device_8.Text = "Device 8";
             this.Device_8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

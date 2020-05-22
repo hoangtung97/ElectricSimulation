@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.btn_exit = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_exit
@@ -77,7 +80,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = false;
-      
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -105,12 +108,22 @@
             this.button3.Text = "Pause";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // axShockwaveFlash1
+            // 
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(29, 64);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(947, 516);
+            this.axShockwaveFlash1.TabIndex = 8;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(1015, 660);
+            this.Controls.Add(this.axShockwaveFlash1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -119,6 +132,7 @@
             this.Name = "Form4";
             this.Text = "Form4";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -129,5 +143,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private AxShockwaveFlashObjects.AxShockwaveFlash axShockwaveFlash1;
     }
 }
