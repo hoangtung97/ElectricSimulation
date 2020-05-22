@@ -41,11 +41,24 @@
       <HintPath>packages\HelixToolkit.2.11.0\lib\netstandard1.1\HelixToolkit.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="MindFusion.Common, Version=1.3.3.451, Culture=neutral, PublicKeyToken=dd7449df9ffcc455" />
     <Reference Include="MindFusion.Diagramming, Version=6.6.0.451, Culture=neutral, PublicKeyToken=dd7449df9ffcc455" />
     <Reference Include="MindFusion.Diagramming.WinForms, Version=6.6.0.451, Culture=neutral, PublicKeyToken=dd7449df9ffcc455" />
     <Reference Include="MindFusion.Diagramming.WinForms.Controls, Version=6.6.0.451, Culture=neutral, PublicKeyToken=dd7449df9ffcc455, processorArchitecture=MSIL" />
     <Reference Include="MindFusion.Diagramming.WinForms.Design, Version=6.6.0.451, Culture=neutral, PublicKeyToken=dd7449df9ffcc455, processorArchitecture=MSIL" />
+    <Reference Include="Patagames.Pdf, Version=5.22.16.452, Culture=neutral, PublicKeyToken=60fd6cf9b15941cf, processorArchitecture=MSIL">
+      <HintPath>packages\Pdfium.Net.SDK.4.27.2704\lib\net452\Patagames.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Pdf.WinForms, Version=4.6.7.452, Culture=neutral, PublicKeyToken=60fd6cf9b15941cf, processorArchitecture=MSIL">
+      <HintPath>packages\Pdfium.Net.SDK.4.27.2704\lib\net452\Patagames.Pdf.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Pdf.Wpf, Version=4.7.9.452, Culture=neutral, PublicKeyToken=60fd6cf9b15941cf, processorArchitecture=MSIL">
+      <HintPath>packages\Pdfium.Net.SDK.4.27.2704\lib\net452\Patagames.Pdf.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -94,6 +107,8 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pdf.Net.SDK.licx" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -360,6 +375,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icudt.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\pdfium.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\pdfium.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

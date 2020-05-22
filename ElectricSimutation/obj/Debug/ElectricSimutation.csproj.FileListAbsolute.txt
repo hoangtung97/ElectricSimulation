@@ -87,3 +87,13 @@ D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Interop.Shockwav
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\Interop.ShockwaveFlashObjects.dll
 D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\obj\Debug\ElectricSimutation.exe.licenses
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\icudt.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\x64\pdfium.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\x86\pdfium.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\GithubFolder\ElectricSimulation\ElectricSimutation\bin\Debug\Patagames.Pdf.Wpf.xml

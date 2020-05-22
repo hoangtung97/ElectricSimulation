@@ -22,7 +22,7 @@ namespace ElectricSimutation
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = Environment.CurrentDirectory + @"\Video3d\Box01.avi";
+            //axWindowsMediaPlayer1.URL = Environment.CurrentDirectory + @"\Video3d\Box01.avi";
         }
 
         private void btn_exit_Click(object sender, EventArgs e)
