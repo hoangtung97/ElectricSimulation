@@ -73,16 +73,6 @@ namespace ElectricSimutation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _4A78211D_C800_4A6B_A6E9_90BEB4775AD4__png {
-            get {
-                object obj = ResourceManager.GetObject("{4A78211D-C800-4A6B-A6E9-90BEB4775AD4}.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap BACKGROUND {
             get {
                 object obj = ResourceManager.GetObject("BACKGROUND", resourceCulture);

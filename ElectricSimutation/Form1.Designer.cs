@@ -176,7 +176,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 66);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(53, 614);
+            this.panel2.Size = new System.Drawing.Size(53, 663);
             this.panel2.TabIndex = 1;
             // 
             // btn_option
@@ -301,9 +301,9 @@
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1139, 100);
+            this.panel3.Location = new System.Drawing.Point(1260, 100);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(232, 580);
+            this.panel3.Size = new System.Drawing.Size(232, 629);
             this.panel3.TabIndex = 4;
             // 
             // label9
@@ -528,7 +528,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(53, 100);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1086, 35);
+            this.panel6.Size = new System.Drawing.Size(1207, 35);
             this.panel6.TabIndex = 7;
             // 
             // label1
@@ -552,7 +552,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Right;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(906, 0);
+            this.label3.Location = new System.Drawing.Point(1027, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 35);
             this.label3.TabIndex = 5;
@@ -568,7 +568,7 @@
             this.btn_Zoomout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_Zoomout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Zoomout.Image = global::ElectricSimutation.Properties.Resources.ZOOM_IN;
-            this.btn_Zoomout.Location = new System.Drawing.Point(953, 0);
+            this.btn_Zoomout.Location = new System.Drawing.Point(1074, 0);
             this.btn_Zoomout.Name = "btn_Zoomout";
             this.btn_Zoomout.Size = new System.Drawing.Size(34, 35);
             this.btn_Zoomout.TabIndex = 4;
@@ -583,7 +583,7 @@
             this.btn_Zoomin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_Zoomin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Zoomin.Image = global::ElectricSimutation.Properties.Resources.ZOOM_OUT;
-            this.btn_Zoomin.Location = new System.Drawing.Point(987, 0);
+            this.btn_Zoomin.Location = new System.Drawing.Point(1108, 0);
             this.btn_Zoomin.Name = "btn_Zoomin";
             this.btn_Zoomin.Size = new System.Drawing.Size(34, 35);
             this.btn_Zoomin.TabIndex = 3;
@@ -598,7 +598,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = global::ElectricSimutation.Properties.Resources.FULLSCREEN11;
-            this.button2.Location = new System.Drawing.Point(1021, 0);
+            this.button2.Location = new System.Drawing.Point(1142, 0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(34, 35);
             this.button2.TabIndex = 9;
@@ -616,7 +616,7 @@
             this.btn_Openproperties.ForeColor = System.Drawing.Color.White;
             this.btn_Openproperties.Image = global::ElectricSimutation.Properties.Resources.Open;
             this.btn_Openproperties.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Openproperties.Location = new System.Drawing.Point(1055, 0);
+            this.btn_Openproperties.Location = new System.Drawing.Point(1176, 0);
             this.btn_Openproperties.Name = "btn_Openproperties";
             this.btn_Openproperties.Size = new System.Drawing.Size(31, 35);
             this.btn_Openproperties.TabIndex = 2;
@@ -630,7 +630,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(53, 66);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1318, 34);
+            this.panel7.Size = new System.Drawing.Size(1439, 34);
             this.panel7.TabIndex = 8;
             // 
             // ruler1
@@ -642,7 +642,7 @@
             this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ruler1.Location = new System.Drawing.Point(308, 135);
             this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(831, 545);
+            this.ruler1.Size = new System.Drawing.Size(952, 594);
             this.ruler1.TabIndex = 9;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
@@ -655,7 +655,7 @@
             this.diagramView1.LicenseKey = null;
             this.diagramView1.Location = new System.Drawing.Point(18, 18);
             this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(813, 527);
+            this.diagramView1.Size = new System.Drawing.Size(934, 576);
             this.diagramView1.TabIndex = 3;
             this.diagramView1.Text = "diagramView1";
             this.diagramView1.Click += new System.EventHandler(this.diagramView1_Click);
@@ -711,7 +711,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1371, 66);
+            this.panel1.Size = new System.Drawing.Size(1492, 66);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
@@ -846,7 +846,7 @@
             this.btn_restoredown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_restoredown.Image = global::ElectricSimutation.Properties.Resources.RESTORE_DOWN11;
-            this.btn_restoredown.Location = new System.Drawing.Point(1305, 0);
+            this.btn_restoredown.Location = new System.Drawing.Point(1308, 0);
             this.btn_restoredown.Name = "btn_restoredown";
             this.btn_restoredown.Size = new System.Drawing.Size(33, 27);
             this.btn_restoredown.TabIndex = 4;
@@ -863,7 +863,7 @@
             this.btn_minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_minimize.Image = global::ElectricSimutation.Properties.Resources.MINIMIZE11;
-            this.btn_minimize.Location = new System.Drawing.Point(1272, 0);
+            this.btn_minimize.Location = new System.Drawing.Point(1275, 0);
             this.btn_minimize.Name = "btn_minimize";
             this.btn_minimize.Size = new System.Drawing.Size(33, 27);
             this.btn_minimize.TabIndex = 3;
@@ -880,7 +880,7 @@
             this.btn_fullscreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_fullscreen.Image = global::ElectricSimutation.Properties.Resources.FULLSCREEN1;
-            this.btn_fullscreen.Location = new System.Drawing.Point(1305, 0);
+            this.btn_fullscreen.Location = new System.Drawing.Point(1426, 0);
             this.btn_fullscreen.Name = "btn_fullscreen";
             this.btn_fullscreen.Size = new System.Drawing.Size(33, 27);
             this.btn_fullscreen.TabIndex = 2;
@@ -897,7 +897,7 @@
             this.btn_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_exit.Image = global::ElectricSimutation.Properties.Resources.EXIT11;
-            this.btn_exit.Location = new System.Drawing.Point(1338, 0);
+            this.btn_exit.Location = new System.Drawing.Point(1459, 0);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(33, 27);
             this.btn_exit.TabIndex = 1;
@@ -920,7 +920,7 @@
             this.panel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(50)))), ((int)(((byte)(71)))));
             this.panel8.Location = new System.Drawing.Point(53, 135);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(255, 545);
+            this.panel8.Size = new System.Drawing.Size(255, 594);
             this.panel8.TabIndex = 10;
             // 
             // Device_8
@@ -1077,9 +1077,9 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(30)))));
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 680);
+            this.panel9.Location = new System.Drawing.Point(0, 729);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1371, 21);
+            this.panel9.Size = new System.Drawing.Size(1492, 21);
             this.panel9.TabIndex = 11;
             // 
             // Form1
@@ -1087,7 +1087,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(20)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(1371, 701);
+            this.ClientSize = new System.Drawing.Size(1492, 750);
             this.Controls.Add(this.ruler1);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel6);

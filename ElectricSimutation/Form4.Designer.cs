@@ -111,7 +111,7 @@
             // axShockwaveFlash1
             // 
             this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(29, 64);
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(29, 59);
             this.axShockwaveFlash1.Name = "axShockwaveFlash1";
             this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
             this.axShockwaveFlash1.Size = new System.Drawing.Size(947, 516);

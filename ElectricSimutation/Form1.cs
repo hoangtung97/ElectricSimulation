@@ -54,6 +54,7 @@ namespace ElectricSimutation
                 CreateParams cp = base.CreateParams;
                 cp.ClassStyle = CS_DropShadow;
                 return cp;
+
             }
         }
 
@@ -93,7 +94,7 @@ namespace ElectricSimutation
 
         private void txb_Search_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btn_project_Click(object sender, EventArgs e)
